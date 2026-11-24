@@ -1,0 +1,15 @@
+[project]
+name = "pier-forces"
+version = "0.1.0"
+description = "Desktop application to extract ETABS Pier Forces, compute NBCC 2020 ULS load combinations and governing envelopes, and export formatted Excel reports."
+requires-python = ">=3.13"
+dependencies = [
+    "comtypes>=1.5.0",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
